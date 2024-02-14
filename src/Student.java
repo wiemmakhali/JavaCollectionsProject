@@ -1,10 +1,12 @@
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class Student {
     private String name;
     private int id;
     private List<String> courses;
+
 
     public Student(String name, int id) {
         this.name = name;
@@ -15,6 +17,16 @@ public class Student {
     public String getName() {
         return name;
     }
+
+ 
+/*
+    public Student(String name, int id, List<String> courses) {
+        this.name = name;
+        this.id = id;
+        this.courses = courses;
+    }
+ */
+
 
     public int getId() {
         return id;
